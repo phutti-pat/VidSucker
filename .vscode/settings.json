@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "aiohttp"
+    ],
+    "python.testing.pytestArgs": [
+        "env"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
