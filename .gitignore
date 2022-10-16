@@ -123,3 +123,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 results/
+venv_vid/
