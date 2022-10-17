@@ -1,10 +1,19 @@
 {
     "cSpell.words": [
-        "aiohttp"
+        "aiohttp",
+        "asyncinit"
     ],
     "python.testing.pytestArgs": [
         "env"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "editor.renderWhitespace": "none",
+    "editor.accessibilityPageSize": 13,
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoSurround": "quotes",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
 }
