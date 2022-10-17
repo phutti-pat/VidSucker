@@ -32,11 +32,10 @@ class FileReader(object):
             return data
         
     async def read_file(self):
-        
         if self.type == 'w':
             return self
             pass
-        
+
         self.file_content = self.file.read()
         print("********************************\n" + self.filename + "\n********************************\n" + self.file_content + "****************************************************************")
         self.file.close()
@@ -54,18 +53,7 @@ class FileReader(object):
         print("Updated file")
         write.close()
         
-    # def remove_downloaded_link(self, link):
-    #     if self.type != 'w':
-    #         pass
-    #     file = self.read_file(type='w')
-    #     content = file.file_content
-    #     content.replace(link, "")
-    #     file.writelines(self.file_content)
-    #     file.close()
-    #     print("Removed link %s" % link)
 
-        
-    
 @asyncinit
 class VidSucker:
 
@@ -174,6 +162,6 @@ async def main():
         
             
     async def start_loop(links: list[str]):
-        [await read_all_filezzzx(link=n) for n in links]
+        [await read_all_file(link=n) for n in links]
             
 asyncio.run(main())
